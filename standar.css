@@ -1,0 +1,394 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    padding-top: 60px; /* Adjust value to match your header's height */
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff; /* Replace with your header color */
+    z-index: 10; /* Ensure header stays above other content */
+    padding: 8px;
+    box-shadow: #666;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+.home{
+    color: #007bff;
+}
+
+nav a {
+    text-decoration: none;
+    color:#1B2C51;
+    font-weight: bold;
+}
+
+nav :hover{
+    color: #007bff;
+}
+
+main {
+    padding: 50px 0;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.logo-image {
+    text-align: right;
+}
+
+.logo-image img {
+    width: 200px;
+    height: 200px;
+}
+
+
+
+.top-header {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 10px;
+    font-size: 12px;
+    color: #666;
+    border-bottom: 1px solid #fdfdfd;
+}
+
+.top-header .location, .top-header .working-hours, .top-header .contact-number {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.top-header i {
+    color: #3367d6; /* Warna ikon */
+}
+
+/* Tambahkan styling lainnya sesuai kebutuhan */
+
+/* dropdown */
+
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    text-decoration: none;
+    
+}
+
+.nav-links a {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-decoration: none;
+    color: #000;    
+
+
+}
+.dropdown-content :hover{
+   color:#007bff;
+    display: block;
+    text-decoration: none;
+}
+.dropdown-content li {
+    /* padding: 8px 16px; */
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-content li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    text-decoration: none;
+}
+
+
+
+/* Footer */
+footer {
+    background-color: #1B2C51;
+    padding: 40px 20px;
+    border-top: 1px solid #ddd;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 250px;
+}
+
+.footer-section h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.footer-section p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: auto;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    margin-top: 9px;
+}
+
+.footer-bottom p {
+    font-size: 1em;
+    color: #666;
+}
+
+
+
+
+/* Gaya umum */
+.utama {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to right, #f7f8f9, #94a9c7);
+    color: #333;
+    overflow-x: hidden;
+}
+
+/* Header */
+.judul {
+    background: linear-gradient(to right, #2980b9, #2c3e50);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+}
+
+.judul h1 {
+    font-size: 4em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    animation: fadeInDown 1s ease-in-out;
+}
+
+judul p {
+    font-size: 1.5em;
+    font-weight: 300;
+    animation: fadeInUp 1.5s ease-in-out;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('https://source.unsplash.com/1600x900/?medical') no-repeat center center/cover;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    animation: slideInFromLeft 1.5s ease-out;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    animation: slideInFromRight 1.5s ease-out;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #e74c3c;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: background-color 0.3s ease;
+    animation: fadeInUp 2s ease-in-out;
+}
+
+.cta-button:hover {
+    background-color: #c0392b;
+}
+
+/* Standar Pelayanan Section */
+.standar-pelayanan {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #fff;
+}
+
+.standar-pelayanan h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #1f73ac;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.standar-pelayanan p {
+    font-size: 1.2em;
+    margin-bottom: 50px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-box {
+    background-color: #f1f1f1;
+    padding: 30px;
+    width: 45%;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.service-box:hover {
+    transform: scale(1.05);
+}
+
+.service-box h3 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #2980b9;
+}
+
+.service-box p {
+    font-size: 1.1em;
+}
+
+
+/* Animasi */
+@keyframes fadeInDown {
+    0% { opacity: 0; transform: translateY(-30px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+    0% { opacity: 0; transform: translateY(30px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideInFromLeft {
+    0% { opacity: 0; transform: translateX(-100px); }
+    100% { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slideInFromRight {
+    0% { opacity: 0; transform: translateX(100px); }
+    100% { opacity: 1; transform: translateX(0); }
+}

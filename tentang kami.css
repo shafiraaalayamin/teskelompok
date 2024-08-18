@@ -1,0 +1,532 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    padding-top: 60px; /* Adjust value to match your header's height */
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff; /* Replace with your header color */
+    z-index: 10; /* Ensure header stays above other content */
+    padding: 8px;
+    box-shadow: #666;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+.home{
+    color: #007bff;
+}
+
+nav a {
+    text-decoration: none;
+    color:#1B2C51;
+    font-weight: bold;
+}
+
+nav :hover{
+    color: #007bff;
+}
+
+main {
+    padding: 50px 0;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.logo-image {
+    text-align: right;
+}
+
+.logo-image img {
+    width: 200px;
+    height: 200px;
+}
+
+
+
+.top-header {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 10px;
+    font-size: 12px;
+    color: #666;
+    border-bottom: 1px solid #fdfdfd;
+}
+
+.top-header .location, .top-header .working-hours, .top-header .contact-number {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.top-header i {
+    color: #3367d6; /* Warna ikon */
+}
+
+/* Tambahkan styling lainnya sesuai kebutuhan */
+
+
+
+
+.doctors-section {
+    margin: 9px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.doctors-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.doctors-section h1 {
+    margin-bottom: 30px;
+    font-size: 36px;
+    color: #333;
+}
+
+.doctors-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.doctor-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 220px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.doctor-card:hover {
+    transform: translateY(-10px);
+}
+
+.doctor-card img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.doctor-card h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.doctor-card p {
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.social-links a {
+    color: #333;
+    margin: 0 5px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #007bff;
+}
+
+
+.aboutt{
+    color: #007bff;
+}
+
+
+/* about */
+
+.about {
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url('path-to-background-image.jpg');
+    background-size: cover;
+    color: white;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+    animation: fadeInDown 1s ease-in-out;
+}
+
+.about .container-about {
+    background-color: #007bff;
+    padding: 30px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.about h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #fff;
+}
+
+.about .profile img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: 5px solid white;
+}
+
+.about .profile h2 {
+    margin-top: 15px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.about .profile p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #ddd;
+}
+
+.about .profile .rating {
+    margin: 15px 0;
+    font-size: 20px;
+}
+
+.about .profile .description {
+    font-size: 16px;
+    color: #ccc;
+}
+
+
+/* Footer */
+footer {
+    background-color: #1B2C51;
+    padding: 40px 20px;
+    border-top: 1px solid #ddd;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 250px;
+}
+
+.footer-section h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.footer-section p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: auto;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    margin-top: 9px;
+}
+
+.footer-bottom p {
+    font-size: 1em;
+    color: #666;
+}
+
+
+/* dropdown */
+
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    text-decoration: none;
+    
+}
+
+.nav-links a {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-decoration: none;
+    color: #000;    
+
+
+}
+.dropdown-content :hover{
+    color:#007bff;
+    display: block;
+    text-decoration: none;
+}
+.dropdown-content li {
+    /* padding: 8px 16px; */
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-content li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    text-decoration: none;
+}
+
+
+/* visi */
+
+
+.vision-mission {
+    background-color: #f0f0f0;
+    padding: 50px;
+    margin-top: 50px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+    margin-left: 130px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.vision-mission h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+}
+
+.vision, .mission {
+    margin-bottom: 20px;
+}
+
+.vision h2, .mission h2 {
+    font-size: 24px;
+    color: #0066cc;
+    margin-bottom: 10px;
+}
+
+.vision p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.mission ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.mission ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* pegawai */
+
+
+.employee-section {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 100px;
+    margin-top: 150px;
+}
+
+.employee-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.employee-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.employee-card {
+    width: 18%;
+    padding: 20px;
+    background-color: #f1f7ff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.icon img {
+    width: 40px;
+    height: 40px;
+    background-color: #007bff;
+    border-radius: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.employee-card h3 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.employee-card p {
+    font-size: 16px;
+    color: #777;
+}
+
+
+/* Header */
+.judul {
+    background: linear-gradient(to right, #1a68bca0, #1646a0a5);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+    animation: fadeInDown 1s ease-in-out;
+}
+
+.judul h1 {
+    font-size: 4em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.judul p {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+
+/* Animasi */
+@keyframes fadeInDown {
+    0% { opacity: 0; transform: translateY(-30px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes zoomIn {
+    0% { opacity: 0; transform: scale(0.8); }
+    100% { opacity: 1; transform: scale(1); }
+}

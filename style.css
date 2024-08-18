@@ -1,0 +1,602 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    padding-top: 60px; /* Adjust value to match your header's height */
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff; /* Replace with your header color */
+    z-index: 10; /* Ensure header stays above other content */
+    padding: 8px;
+    box-shadow: #666;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+.home{
+    color: #007bff;
+}
+
+nav a {
+    text-decoration: none;
+    color:#1B2C51;
+    font-weight: bold;
+}
+
+nav :hover{
+    color: #007bff;
+}
+
+main {
+    padding: 50px 0;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-underline-offset: none;
+}
+
+.logo-image {
+    text-align: right;
+}
+
+.logo-image img {
+    width: 200px;
+    height: 200px;
+}
+
+
+
+.top-header {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 10px;
+    font-size: 12px;
+    color: #666;
+    border-bottom: 1px solid #fdfdfd;
+}
+
+.top-header .location, .top-header .working-hours, .top-header .contact-number {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.top-header i {
+    color: #3367d6; /* Warna ikon */
+}
+
+/* Tambahkan styling lainnya sesuai kebutuhan */
+
+
+
+
+/* Style untuk section info-cards */
+.info-cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    width: 23%;
+}
+.info-cards :hover{
+background-color: #ddd;
+color: #fff;
+}
+
+.card-icon img {
+    width: 40px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.card-content h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+.card-content p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+.card-content a{
+    text-decoration: none;
+}
+
+
+
+/* Footer */
+footer {
+    background-color: #1B2C51;
+    padding: 40px 20px;
+    border-top: 1px solid #ddd;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 250px;
+}
+
+.footer-section h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.footer-section p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: auto;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    margin-top: 9px;
+}
+
+.footer-bottom p {
+    font-size: 1em;
+    color: #666;
+}
+
+
+
+
+/* nama logo */
+
+
+.nama{
+    color: #fff;
+}
+
+
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #007bff;
+    color: white;
+    padding: 150px 0;
+}
+
+.container-hero {
+    display: flex;
+    max-width: 1200px;
+    width: 150%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.text-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.statistics {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.stat-item {
+    flex: 1;
+    text-align: center;
+}
+
+.stat-item h2 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.stat-item p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.image-content {
+    flex: 1;
+    position: relative;
+}
+
+.image-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 9px;
+    object-fit: cover;
+}
+
+.image-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+}
+
+.image-text h2 {
+    font-size: 48px;
+    margin: 0;
+}
+
+
+
+
+
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-size: 16px;
+        text-align: left;
+        font-family:Verdana, Geneva, Tahoma, sans-serif
+    }
+    th, td {
+        padding: 12px;
+        border: 1px solid #ddd;
+    }
+    thead {
+        background-color: #f4f4f4;
+    }
+    th {
+        background-color: #007bff;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    tbody tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+    tbody tr:hover {
+        background-color: #f1f1f1;
+    }
+
+
+
+
+
+    
+  
+
+    /* Gaya dasar untuk seluruh halaman */
+.page {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+/* Kontainer utama untuk bagian "Trust Us" */
+.trust-us-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* Gaya untuk konten teks */
+.trust-us-content {
+    max-width: 600px;
+}
+
+.trust-us-content h2 {
+    color: #123456;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.trust-us-content p {
+    color: #555555;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Gaya untuk daftar fitur */
+.trust-us-features {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.trust-us-features li {
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.check-icon {
+    background-color: #0056FF;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Gaya untuk tombol "Read More" */
+.btn-read-more {
+    background-color: #0056FF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btn-read-more:hover {
+    background-color: #003bb3;
+}
+
+/* Gaya untuk bagian gambar */
+.trust-us-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.trust-us-images img {
+    width: 550px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+    
+
+
+/* dropdown */
+
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    text-decoration: none;
+    
+}
+
+.nav-links a {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-decoration: none;
+    color: #000;    
+
+
+}
+.dropdown-content :hover{
+   color:#007bff;
+    display: block;
+    text-decoration: none;
+}
+.dropdown-content li {
+    /* padding: 8px 16px; */
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-content li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    text-decoration: none;
+}
+
+
+
+
+/* Section styling */
+.doctors-section {
+    text-align: center;
+    margin: 20px;
+
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.doctors-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Container styling */
+.doctors-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* Card styling */
+.doctor-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    width: 250px;
+    margin: 15px;
+    cursor: pointer;
+
+}
+
+.doctor-card a{
+    text-decoration: none;
+}
+
+.doctor-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.doctor-card h2 {
+    font-size: 1.5em;
+    color: #444;
+    padding: 15px;
+    margin: 0;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Hover effects */
+.doctor-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+.doctor-card:hover h2 {
+    color: #007bff;
+}
+
+/* Adding animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.doctor-card {
+    animation: fadeIn 0.5s ease-in-out;
+}
